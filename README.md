@@ -1,2 +1,20 @@
-# Genomics-and-bioinformatics
 Comparison of Genomic Features of Invasive Lobular and Invase Ductal Breast Carcinomabased on the data from Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer (Ciriello et. 2015)
+
+
+# Abstract
+Breast cancer is considered as the most frequent cancer affecting women worldwide. The most frequently diagnosed breast cancer histologic subtypes are Invasive Lobular Cancer (ILC) and Invasive Ductal Cancer (IDC). Besides the histological classification, breast cancer can also be categorized into intrinsic subtypesdepending on the gene expressed. There are five main molecular subtypes of breast cancer: LuminalA, Luminal B, HER2-enriched, Normal-like, and Basal-like. The histological and molecular characteristics have important implications for disease diagnosticsand therapy according to the molecular hallmarks of the breast cancer subtypes. This project aims to to identify the genomic characteristicsof the invasive lobular carcinoma (ILC).
+
+# Objectives
+- Which genomic characteristics are different between different types of breast cancer?
+- What can you conclude from RPPA data analysis? Are your results in agreement with the author's observations?  
+- Which biological functions are affected?
+
+# The data
+The data used is Ciriello et al. (2015) analysis: Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer. The data were extracted from a public web-service (http://cbio.mskcc.org/cancergenomics/tcga/brca_tcga).
+
+# Programmation langage 
+R and Python.
+
+# Data Structuring
+
+
