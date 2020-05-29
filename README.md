@@ -4,7 +4,7 @@
 # Abstract
 Breast cancer is considered as the most frequent cancer affecting women worldwide. The most frequently diagnosed breast cancer histologic subtypes are Invasive Lobular Cancer (ILC) and Invasive Ductal Cancer (IDC). Besides the histological classification, breast cancer can also be categorized into intrinsic subtypesdepending on the gene expressed. There are five main molecular subtypes of breast cancer: LuminalA, Luminal B, HER2-enriched, Normal-like, and Basal-like. The histological and molecular characteristics have important implications for disease diagnosticsand therapy according to the molecular hallmarks of the breast cancer subtypes. This project aims to to identify the genomic characteristicsof the invasive lobular carcinoma (ILC).
 
-# Objectives
+# Key questions
 - Which genomic characteristics are different between different types of breast cancer?
 - What can we conclude from RPPA data analysis? Are the results in agreement with the author's observations?  
 - Which biological functions are affected?
