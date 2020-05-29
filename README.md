@@ -19,7 +19,7 @@ R and Python.
 
 ## RPPA Data Analysis
 
-- [RPPA data preprocessing](RPPA Data Analysis/RPPA_preprocessing.ipynb): The langage used here is Python. This file contains the code for selecting the samples of interest ( luminal A IDC and luminal A ILC) and the columns reordering.
+- [RPPA data preprocessing](RPPA\ Data\ Analysis/RPPA_preprocessing.ipynb): The langage used here is Python. This file contains the code for selecting the samples of interest ( luminal A IDC and luminal A ILC) and the columns reordering.
 
 - [RPPA heatmap](RPPA Data Analysis/RPPA_R.ipynb): The langage used here is R. This file contains the code for plotting the heatmap for RPPA analysis.
 
