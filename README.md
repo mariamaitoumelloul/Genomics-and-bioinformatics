@@ -15,6 +15,20 @@ The data used is Ciriello et al. (2015) analysis: Comprehensive Molecular Portra
 # Programmation langage 
 R and Python.
 
-# Data Structuring
+# Table of content
+
+## RPPA Data Analysis
+
+[RPPA data preprocessing](RPPA_preprocessing.ipynb): The langage used here is Python. This file contains the code for selecting the samples of interest ( luminal A IDC and luminal A ILC) and the columns reordering.
+[RPPA heatmap](RPPA_R.ipynb): The langage used here is R. This file contains the code for plotting the heatmap for RPPA analysis.
+
+# RNA-Seq Data Analysis
+
+[Differential Gene Expression Analysis](DEG_R.ipynb): The langage used here is R. This file contains the code for processing RNA-seq data, performing an exploratory data analysis (PCA and tSNE) and differential gene expression analysis between ILC and IDC.
+[Selection of luminal A samples](DEG_lumA_preprocessing.ipynb): The langage used here is R. This file contains the code for selecting only luminal A ILC and luminal A IDC samples for the RNA-seq data analysis.
+[Differential Gene Expression Analysis for luminal A samples](DEG_lumA_R.ipynb): The langage used here is R. This file contains the code for processing RNA-seq data and differential gene expression analysis between luminal A ILC and luminal A IDC.
+
+
+
 
 
