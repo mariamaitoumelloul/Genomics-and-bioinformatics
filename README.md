@@ -6,11 +6,11 @@ Breast cancer is considered as the most frequent cancer affecting women worldwid
 
 # Objectives
 - Which genomic characteristics are different between different types of breast cancer?
-- What can you conclude from RPPA data analysis? Are your results in agreement with the author's observations?  
+- What can we conclude from RPPA data analysis? Are the results in agreement with the author's observations?  
 - Which biological functions are affected?
 
 # The data
-The data used is Ciriello et al. (2015) analysis: Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer. The data were extracted from a public web-service (http://cbio.mskcc.org/cancergenomics/tcga/brca_tcga).
+The data used is from Ciriello et al. (2015) analysis: Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer. The data were extracted from a public web-service (http://cbio.mskcc.org/cancergenomics/tcga/brca_tcga).
 
 # Programmation langage 
 R and Python.
@@ -19,15 +19,15 @@ R and Python.
 
 ### RPPA Data Analysis
 
-- [RPPA data preprocessing](RPPA_preprocessing.ipynb): The langage used here is Python. This file contains the code for selecting the samples of interest ( luminal A IDC and luminal A ILC) and the columns reordering.
+- [RPPA data preprocessing](RPPA_preprocessing.ipynb): The langage used here is Python. This file contains the code for selecting the samples of interest ( luminal A IDC and luminal A ILC) and to rank the columns of the dataset.
 
-- [RPPA heatmap](RPPA_R.ipynb): The langage used here is R. This file contains the code for plotting the heatmap for RPPA analysis.
+- [RPPA heatmap](RPPA_R.ipynb): The langage used here is R. This file contains the code for plotting the heatmap for the RPPA analysis.
 
 ### RNA-Seq Data Analysis
 
 - [Differential Gene Expression Analysis](DEG_R.ipynb): The langage used here is R. This file contains the code for processing RNA-seq data, performing an exploratory data analysis (PCA and tSNE) and differential gene expression analysis between ILC and IDC.
 
-- [Selection of luminal A samples](DEG_lumA_preprocessing.ipynb): The langage used here is R. This file contains the code for selecting only luminal A ILC and luminal A IDC samples for the RNA-seq data analysis.
+- [Selection of luminal A samples](DEG_lumA_preprocessing.ipynb): The langage used here is Python. This file contains the code for selecting only luminal A ILC and luminal A IDC samples for the RNA-seq data analysis.
 
 - [Differential Gene Expression Analysis for luminal A samples](DEG_lumA_R.ipynb): The langage used here is R. This file contains the code for processing RNA-seq data and differential gene expression analysis between luminal A ILC and luminal A IDC.
 
